@@ -6,9 +6,10 @@ export default defineConfig({
   modules: ['@wxt-dev/module-vue'],
   manifest: { 
     name: 'Pin All Tabs',
+    version: '1.0.0',
     description: 'Pin all tabs',
     action: {
-      default_popup: '', // 将此设置为空字符串
+      default_popup: '',  
     },
   },
 });
